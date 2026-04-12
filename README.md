@@ -26,11 +26,10 @@ Visit the live site here:
 
 ## Project Structure
 
-.gitignore
-public/ 
-	index.html app.js damage.js styles.css 
-	Outgoing/ 
-		normal-out.json fire-out.json ... fairy-out.json
+.gitignore 
+index.html app.js damage.js styles.css 
+Outgoing/ 
+	normal-out.json fire-out.json ... fairy-out.json
 package.json README.md LICENSE
 
 
