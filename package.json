@@ -1,0 +1,15 @@
+{
+  "name": "type-matchup-viewer",
+  "version": "1.0.0",
+  "description": "A browser-based interactive Pokémon type matchup viewer with full single and dual-type support.",
+  "type": "module",
+  "keywords": [
+    "pokemon",
+    "type-chart",
+    "matchups",
+    "damage-calculator",
+    "browser-app"
+  ],
+  "author": "Vellis",
+  "license": "MIT"
+}
