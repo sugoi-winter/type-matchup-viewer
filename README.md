@@ -30,10 +30,7 @@ Visit the live site here:
 index.html app.js damage.js styles.css 
 Outgoing/ 
 	normal-out.json fire-out.json ... fairy-out.json
-package.json README.md LICENSE
-
-
-GitHub Pages serves the `public/` directory as the site root.
+package.json README.md LICENSE
 
 ## Running Locally
 
