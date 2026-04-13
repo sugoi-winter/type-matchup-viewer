@@ -1,7 +1,5 @@
 # Type Matchup Viewer
 
-**This currently has inaccurate calculations for some type combos such as Poison against Steel/Fairy being listed as x1 even though it should be x0. April 12 1:04am. Will be fixed in afternoon when I wake up, thank you for your patience.**
-
 An interactive, browser-based Pokémon type matchup viewer with full single and dual-type support, advanced filtering, and a clean UI. 
 
 I was having a hard time understanding type matchups, so I made a tool that does it for 
@@ -32,7 +30,8 @@ Visit the live site here:
 index.html app.js damage.js styles.css 
 Outgoing/ 
 	normal-out.json fire-out.json ... fairy-out.json
-package.json README.md LICENSE
+package.json README.md LICENSE
+
 
 ## Running Locally
 
