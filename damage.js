@@ -39,7 +39,17 @@ export function damage(attacker, target) {
   if (!table) return 1;
 
   const parts = target.split("/");
-  const key = parts.length === 1 ? parts[0] : parts.sort().join("/");
 
-  return table[key] ?? 1;
+  if (parts.length === 1) {
+    return table[parts[0]] ?? 1;
+  }
+
+  const [a, b] = parts;
+  const key1 = `${a}/${b}`;
+  const key2 = `${b}/${a}`;
+
+  if (table[key1] !== undefined) return table[key1];
+  if (table[key2] !== undefined) return table[key2];
+
+  return 1;
 }
