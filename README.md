@@ -9,7 +9,7 @@ you.
 
 Visit the live site here:
 
-**https://sugoi-winter.github.io/type-matchup-viewer/**
+**https://kiftix-v.github.io/type-matchup-viewer/**
 
 ## Features
 
